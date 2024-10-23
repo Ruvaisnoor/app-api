@@ -29,7 +29,7 @@ class _ProductListPageState extends State<ProductListPage> {
         isLoading = false;
       });
     } else {
-      throw Exception('Failed to load products this');
+      throw Exception('Failed to load products ');
     }
   }
 
